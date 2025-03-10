@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -23,12 +24,17 @@ public class PlayerController : MonoBehaviour
     #region Internal Data
     private Vector2 _moveDir = Vector2.zero;
     private Directions _facingDirection = Directions.RIGHT;
+
+    private readonly int _animMoveRight = Animator.StringToHash("Anim_Player_Move_Right");
+    private readonly int _animIdleRight = Animator.StringToHash("Anim_Player_Idle_Right");
     #endregion
 
     #region Tick
     private void Update()
     {
         GatherInput();
+        CalculateFacingDirection();
+        UpdateAnimation();
     }
 
     private void FixedUpdate()
@@ -65,6 +71,28 @@ public class PlayerController : MonoBehaviour
             {
                 _facingDirection= Directions.LEFT;
             } 
+        }
+
+    }
+
+    private void UpdateAnimation()
+    {
+        if (_facingDirection == Directions.LEFT)
+        {
+            _spriteRenderer.flipX = true;
+        }
+        else if (_facingDirection == Directions.RIGHT)
+        {
+            _spriteRenderer.flipX= false;
+        }
+
+        if (_moveDir.SqrMagnitude() > 0) //Moving
+        {
+            _animator.CrossFade(_animMoveRight, 0);
+        }
+        else
+        {
+            _animator.CrossFade(_animIdleRight, 0);
         }
     }
     #endregion
