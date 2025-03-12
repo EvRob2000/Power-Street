@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 [SelectionBase]
@@ -26,6 +27,10 @@ public class PlayerController : MonoBehaviour
 
     private readonly int _animMoveRight = Animator.StringToHash("Anim_Player_Move_Right");
     private readonly int _animIdleRight = Animator.StringToHash("Anim_Player_Idle_Right");
+    private readonly int _animMoveUp = Animator.StringToHash("Anim_Player_Move_Up");
+    private readonly int _animIdleUp = Animator.StringToHash("Anim_Player_Idle_Up");
+    private readonly int _animMoveDown = Animator.StringToHash("Anim_Player_Move_Down");
+    private readonly int _animIdleDown = Animator.StringToHash("Anim_Player_Idle_Down");
     #endregion
 
     #region Tick
@@ -70,6 +75,15 @@ public class PlayerController : MonoBehaviour
         {
             _facingDirection = Directions.LEFT;
         }
+
+        if (_moveDir.y > 0) // Moving Up
+        {
+            _facingDirection = Directions.UP;
+        }
+        else if (_moveDir.y < 0) // Moving Down
+        {
+            _facingDirection = Directions.DOWN;
+        }
     }
 
     private void UpdateAnimation()
@@ -83,14 +97,25 @@ public class PlayerController : MonoBehaviour
             _spriteRenderer.flipX = false;
         }
 
-        if (_moveDir.SqrMagnitude() > 0) // Moving
+        var isMoving = _moveDir.SqrMagnitude() > 0;
+        var animation = _animMoveRight;
+
+        switch (_facingDirection)
         {
-            _animator.CrossFade(_animMoveRight, 0);
+            case Directions.UP:
+                animation = isMoving ? _animMoveUp : _animIdleUp;
+                break;
+            case Directions.DOWN:
+                animation = isMoving ? _animMoveDown : _animIdleDown;
+                break;
+            case Directions.LEFT:
+            case Directions.RIGHT:
+            default:
+                animation = isMoving ? _animMoveRight : _animIdleRight;
+                break;
         }
-        else
-        {
-            _animator.CrossFade(_animIdleRight, 0);
-        }
+
+        _animator.CrossFade(animation, 0);
     }
     #endregion
 }
