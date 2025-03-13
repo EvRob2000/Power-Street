@@ -18,7 +18,7 @@ public class Interactable : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             //Debug.Log("Interact available");
-            outline.SetActive(true);
+            //outline.SetActive(true);
             ePrompt.SetActive(true);
         }
     }
@@ -27,7 +27,7 @@ public class Interactable : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            outline.SetActive(false);
+            //outline.SetActive(false);
             ePrompt.SetActive(false);
         }
     }
