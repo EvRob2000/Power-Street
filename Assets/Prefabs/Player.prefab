@@ -225,7 +225,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff96133c7f9eebd478d0b2a269fdd4aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _moveSpeed: 150
+  _moveSpeed: 300
   _rb: {fileID: 2786411270417822232}
   _animator: {fileID: 8947369738510317208}
   _spriteRenderer: {fileID: 1788181168645030747}
