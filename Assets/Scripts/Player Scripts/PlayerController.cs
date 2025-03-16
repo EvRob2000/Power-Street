@@ -27,10 +27,18 @@ public class PlayerController : MonoBehaviour
 
     private readonly int _animMoveRight = Animator.StringToHash("Anim_Player_Move_Right");
     private readonly int _animIdleRight = Animator.StringToHash("Anim_Player_Idle_Right");
+
+    private readonly int _animHitRight = Animator.StringToHash("Anim_Player_Hit_Right");
+
     private readonly int _animMoveUp = Animator.StringToHash("Anim_Player_Move_Up");
     private readonly int _animIdleUp = Animator.StringToHash("Anim_Player_Idle_Up");
+
+    private readonly int _animHitUp = Animator.StringToHash("Anim_Player_Hit_Up");
+
     private readonly int _animMoveDown = Animator.StringToHash("Anim_Player_Move_Down");
     private readonly int _animIdleDown = Animator.StringToHash("Anim_Player_Idle_Down");
+
+    private readonly int _animHitDown = Animator.StringToHash("Anim_Player_Hit_Down");
     #endregion
 
     #region Tick
@@ -104,14 +112,26 @@ public class PlayerController : MonoBehaviour
         {
             case Directions.UP:
                 animation = isMoving ? _animMoveUp : _animIdleUp;
+                if (Input.GetKeyDown(KeyCode.Mouse0))
+                {
+                    animation = _animHitUp;
+                }
                 break;
             case Directions.DOWN:
                 animation = isMoving ? _animMoveDown : _animIdleDown;
+                if (Input.GetKeyDown(KeyCode.Mouse0))
+                {
+                    animation = _animHitDown;
+                }
                 break;
             case Directions.LEFT:
             case Directions.RIGHT:
             default:
                 animation = isMoving ? _animMoveRight : _animIdleRight;
+                if (Input.GetKeyDown(KeyCode.Mouse0))
+                {
+                    animation = _animHitRight;
+                }
                 break;
         }
 
