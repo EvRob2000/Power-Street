@@ -114,14 +114,14 @@ public class PlayerController : MonoBehaviour
                 animation = isMoving ? _animMoveUp : _animIdleUp;
                 if (Input.GetKeyDown(KeyCode.Mouse0))
                 {
-                    animation = _animHitUp;
+                    animation = isMoving ? _animHitUp : _animHitUp;
                 }
                 break;
             case Directions.DOWN:
                 animation = isMoving ? _animMoveDown : _animIdleDown;
                 if (Input.GetKeyDown(KeyCode.Mouse0))
                 {
-                    animation = _animHitDown;
+                    animation = isMoving ? _animHitDown : _animHitDown;
                 }
                 break;
             case Directions.LEFT:
@@ -130,7 +130,7 @@ public class PlayerController : MonoBehaviour
                 animation = isMoving ? _animMoveRight : _animIdleRight;
                 if (Input.GetKeyDown(KeyCode.Mouse0))
                 {
-                    animation = _animHitRight;
+                    animation = isMoving ? _animHitRight : _animHitRight;
                 }
                 break;
         }
