@@ -1102,6 +1102,11 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1257808379}
   m_SourcePrefab: {fileID: 100100000, guid: c6cf00ad0d8d7da4c8bf741653332e67, type: 3}
+--- !u!95 &508251630 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 8947369738510317208, guid: c6cf00ad0d8d7da4c8bf741653332e67, type: 3}
+  m_PrefabInstance: {fileID: 470213630}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &576584715
 GameObject:
   m_ObjectHideFlags: 0
@@ -19088,6 +19093,7 @@ MonoBehaviour:
   melee: {fileID: 340794006}
   isAttacking: 0
   atkDuration: 0.3
+  animator: {fileID: 508251630}
 --- !u!1 &1393528975
 GameObject:
   m_ObjectHideFlags: 0

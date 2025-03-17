@@ -8,6 +8,7 @@ public class Attack : MonoBehaviour
     public bool isAttacking;
     public float atkDuration = 0.3f;
     float atkTimer = 0f;
+    [SerializeField] private Animator animator;
 
     private void Start()
     {
@@ -21,6 +22,7 @@ public class Attack : MonoBehaviour
 
         if (Input.GetMouseButton(0))
         {
+            animator.SetBool("isAttacking", true);
             OnAttack();
         }
     }
@@ -44,6 +46,7 @@ public class Attack : MonoBehaviour
                 atkTimer = 0f;
                 isAttacking = false;
                 melee.SetActive(false);
+                animator.SetBool("isAttacking", false);
             }
         }
     }
