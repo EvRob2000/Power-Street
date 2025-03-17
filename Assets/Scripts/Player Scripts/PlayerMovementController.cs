@@ -12,6 +12,9 @@ public class PlayerMovementController : MonoBehaviour
     private Vector2 lastMoveDirection;
     private bool facingLeft = true;
 
+    public Transform aim;
+    bool isWalking = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -32,6 +35,11 @@ public class PlayerMovementController : MonoBehaviour
     private void FixedUpdate()
     {
         rb.velocity = input * speed;
+        if (isWalking)
+        {
+            Vector3 vector3 = Vector3.left * input.x + Vector3.down * input.y;
+            aim.rotation = Quaternion.LookRotation(Vector3.forward, vector3);
+        }
     }
 
     private void ProcessInputs()
@@ -41,7 +49,14 @@ public class PlayerMovementController : MonoBehaviour
 
         if((moveX == 0 && moveY == 0) && (input.x != 0 || input.y != 0))
         {
+            isWalking = false;
             lastMoveDirection = input;
+            Vector3 vector3 = Vector3.left * lastMoveDirection.x + Vector3.down * lastMoveDirection.y;
+            aim.rotation = Quaternion.LookRotation(Vector3.forward, vector3);
+        }
+        else if (moveX == 0 || moveY == 0)
+        {
+            isWalking = true;
         }
 
         input.x = Input.GetAxisRaw("Horizontal");
