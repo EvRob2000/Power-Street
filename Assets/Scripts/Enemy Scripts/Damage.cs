@@ -12,6 +12,16 @@ public class Damage : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             playerHealth.health -= damage;
+
+            if (playerHealth.health <= 0) 
+            {
+                playerHealth.health = 0;
+            }
+            
+            if (playerHealth.health >= 100) 
+            { 
+                playerHealth.health = 100;
+            }
         }
     }
 }
