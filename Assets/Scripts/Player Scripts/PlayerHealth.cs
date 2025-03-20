@@ -10,6 +10,8 @@ public class PlayerHealth : MonoBehaviour
     public float maxHealth;
     public Image healthBar;
     [SerializeField] private TextMeshProUGUI healthText;
+    [SerializeField] private GameObject gameOverScreen;
+    [SerializeField] private Animator anim;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,5 +25,18 @@ public class PlayerHealth : MonoBehaviour
         healthBar.fillAmount = Mathf.Clamp(health / maxHealth, 0, 1);
 
         healthText.text = $"{health}";
+
+        StartCoroutine(Death());
+    }
+
+    private IEnumerator Death()
+    {
+        if (health <= 0)
+        {
+            anim.SetBool("isDead", true);
+            yield return new WaitForSeconds(2);
+            Time.timeScale = 0;
+            gameOverScreen.SetActive(true);
+        }
     }
 }
