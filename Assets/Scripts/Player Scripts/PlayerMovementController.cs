@@ -13,7 +13,7 @@ public class PlayerMovementController : MonoBehaviour
     private bool facingLeft = true;
 
     public Transform aim;
-    bool isWalking = false;
+    public bool isWalking = false;
 
     // Start is called before the first frame update
     void Start()

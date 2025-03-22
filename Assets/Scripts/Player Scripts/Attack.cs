@@ -9,6 +9,7 @@ public class Attack : MonoBehaviour
     public float atkDuration = 0.3f;
     float atkTimer = 0f;
     [SerializeField] private Animator animator;
+    //[SerializeField] private PlayerMovementController playerMovementController;
 
     private void Start()
     {
@@ -20,7 +21,7 @@ public class Attack : MonoBehaviour
     {
         CheckMeleeTimer();
 
-        if (Input.GetMouseButton(0))
+        if (Input.GetMouseButton(0) /*&& playerMovementController.GetComponent<PlayerMovementController>().isWalking == true*/)
         {
             animator.SetBool("isAttacking", true);
             OnAttack();
