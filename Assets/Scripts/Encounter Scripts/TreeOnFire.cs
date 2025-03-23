@@ -5,9 +5,15 @@ using UnityEngine;
 public class TreeOnFire : MonoBehaviour
 {
     [SerializeField] private GameObject fire;
+    [SerializeField] private GameObject burntCatJump;
+    [SerializeField] private GameObject burntCat;
+    private int catJump;
 
     private void Start()
     {
+        catJump = 0;
+        burntCat.SetActive(false);
+        burntCatJump.SetActive(false);
         fire.SetActive(false);
     }
 
@@ -16,6 +22,16 @@ public class TreeOnFire : MonoBehaviour
         if (collision.CompareTag("Attack"))
         {
             fire.SetActive(true);
+            StartCoroutine(CatJump());
         }
+    }
+
+    private IEnumerator CatJump()
+    {
+        yield return new WaitForSeconds(1);
+        burntCatJump.SetActive(true);
+        yield return new WaitForSeconds(0.5f);
+        burntCatJump.SetActive(false);
+        burntCat.SetActive(true);
     }
 }
