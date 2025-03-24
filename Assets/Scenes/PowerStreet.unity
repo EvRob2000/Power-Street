@@ -1726,7 +1726,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 4
   m_Sprite: {fileID: 29325209, guid: c8f0e7e1d76fe1c409039ade1ac6c99c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1783,6 +1783,7 @@ GameObject:
   m_Component:
   - component: {fileID: 645223594}
   - component: {fileID: 645223595}
+  - component: {fileID: 645223596}
   m_Layer: 0
   m_Name: TreeTrigger
   m_TagString: Untagged
@@ -1850,6 +1851,21 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &645223596
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 645223593}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6f85c8329a0b8d4ba32fa4403af2113, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fire: {fileID: 737822392}
+  burntCatJump: {fileID: 598845750}
+  burntCat: {fileID: 2131164715}
 --- !u!1 &692298260
 GameObject:
   m_ObjectHideFlags: 0
@@ -34264,7 +34280,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 29325209, guid: c8f0e7e1d76fe1c409039ade1ac6c99c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
