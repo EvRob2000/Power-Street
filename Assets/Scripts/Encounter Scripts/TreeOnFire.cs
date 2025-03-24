@@ -7,11 +7,9 @@ public class TreeOnFire : MonoBehaviour
     [SerializeField] private GameObject fire;
     [SerializeField] private GameObject burntCatJump;
     [SerializeField] private GameObject burntCat;
-    private int catJump;
 
     private void Start()
     {
-        catJump = 0;
         burntCat.SetActive(false);
         burntCatJump.SetActive(false);
         fire.SetActive(false);
