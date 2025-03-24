@@ -30,7 +30,7 @@ public class TreeOnFire : MonoBehaviour
     {
         yield return new WaitForSeconds(1);
         burntCatJump.SetActive(true);
-        yield return new WaitForSeconds(0.30f);
+        yield return new WaitForSeconds(0.5f);
         burntCatJump.SetActive(false);
         burntCat.SetActive(true);
     }
