@@ -7,12 +7,16 @@ public class AreaChange : MonoBehaviour
     [SerializeField] private GameObject ePrompt;
     [SerializeField] private Transform player;
     [SerializeField] private Transform targetLocation;
+    [SerializeField] private GameObject camBounds1;
+    [SerializeField] private GameObject camBounds2;
 
     bool canChange;
 
     // Start is called before the first frame update
     void Start()
     {
+        camBounds1.SetActive(true);
+        camBounds2.SetActive(true);
         ePrompt.SetActive(false);
         canChange = false;
     }
@@ -44,8 +48,16 @@ public class AreaChange : MonoBehaviour
     private void ChangeArea()
     {
         if (Input.GetKeyDown(KeyCode.E) && canChange) 
-        { 
+        {
+            StartCoroutine(BoundDeactivator());
             player.position = new Vector2 (targetLocation.position.x, targetLocation.position.y);
         }
+    }
+
+    private IEnumerator BoundDeactivator()
+    {
+        camBounds1.SetActive (false);
+        yield return new WaitForSeconds(1);
+        camBounds2.SetActive (true);
     }
 }
