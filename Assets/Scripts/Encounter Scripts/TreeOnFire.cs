@@ -7,6 +7,7 @@ public class TreeOnFire : MonoBehaviour
     [SerializeField] private GameObject fire;
     [SerializeField] private GameObject burntCatJump;
     [SerializeField] private GameObject burntCat;
+    [SerializeField] private GameObject treeCollider;
 
     private void Start()
     {
@@ -31,5 +32,6 @@ public class TreeOnFire : MonoBehaviour
         yield return new WaitForSeconds(0.5f);
         burntCatJump.SetActive(false);
         burntCat.SetActive(true);
+        treeCollider.SetActive(false);
     }
 }
