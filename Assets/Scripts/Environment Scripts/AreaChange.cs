@@ -9,6 +9,8 @@ public class AreaChange : MonoBehaviour
     [SerializeField] private Transform targetLocation;
     [SerializeField] private GameObject camBounds1;
     [SerializeField] private GameObject camBounds2;
+    [SerializeField] private GameObject cmCam1;
+    [SerializeField] private GameObject cmCam2;
 
     bool canChange;
 
@@ -57,7 +59,9 @@ public class AreaChange : MonoBehaviour
     private IEnumerator BoundDeactivator()
     {
         camBounds1.SetActive (false);
-        yield return new WaitForSeconds(1);
+        cmCam1.SetActive (false);
+        yield return new WaitForSeconds(0.01f);
         camBounds2.SetActive (true);
+        cmCam2.SetActive (true);
     }
 }
