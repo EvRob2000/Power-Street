@@ -8,6 +8,8 @@ public class TreeOnFire : MonoBehaviour
     [SerializeField] private GameObject burntCatJump;
     [SerializeField] private GameObject burntCat;
     [SerializeField] private GameObject treeCollider;
+    [SerializeField] private GameObject canObject;
+    [SerializeField] public OldLadyDialogue dialogue;
 
     private void Start()
     {
@@ -33,5 +35,7 @@ public class TreeOnFire : MonoBehaviour
         burntCatJump.SetActive(false);
         burntCat.SetActive(true);
         treeCollider.SetActive(false);
+        canObject.SetActive(false);
+        dialogue.treeOnFire = true;
     }
 }

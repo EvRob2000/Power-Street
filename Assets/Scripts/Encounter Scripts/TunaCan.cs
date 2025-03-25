@@ -10,6 +10,8 @@ public class TunaCan : MonoBehaviour
     [SerializeField] private GameObject cat;
     [SerializeField] private GameObject canCollider;
     [SerializeField] private GameObject ePrompt;
+    [SerializeField] private GameObject treeCollider;
+    [SerializeField] private OldLadyDialogue dialogue;
 
     private bool canPlace;
 
@@ -64,5 +66,7 @@ public class TunaCan : MonoBehaviour
         catJump.SetActive(false);
         cat.SetActive(true);
         canCollider.SetActive(false);
+        treeCollider.SetActive(false);
+        dialogue.canPlaced = true;
     }
 }
