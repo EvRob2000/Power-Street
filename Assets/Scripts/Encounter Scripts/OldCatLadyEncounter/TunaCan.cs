@@ -13,7 +13,10 @@ public class TunaCan : MonoBehaviour
     [SerializeField] private GameObject treeCollider;
     [SerializeField] private OldLadyDialogue dialogue;
 
-    private bool canPlace;
+    private bool isClose;
+    public bool canPlace;
+
+    [SerializeField] private FameManager fameManager;
 
     // Start is called before the first frame update
     void Start()
@@ -23,6 +26,8 @@ public class TunaCan : MonoBehaviour
         catJump.SetActive(false);
         cat.SetActive(false);
         ePrompt.SetActive(false);
+        isClose = false;
+        canPlace = false;
     }
 
     // Update is called once per frame
@@ -36,7 +41,7 @@ public class TunaCan : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             ePrompt.SetActive(true);
-            canPlace = true;
+            isClose = true;
         }
     }
 
@@ -45,13 +50,13 @@ public class TunaCan : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             ePrompt.SetActive(false);
-            canPlace = false;
+            isClose = false;
         }
     }
 
     private void PlaceCan()
     {
-        if (Input.GetKeyDown(KeyCode.E) && canPlace)
+        if (Input.GetKeyDown(KeyCode.E) && isClose && canPlace)
         {
             StartCoroutine(CatJump());
         }
@@ -68,5 +73,7 @@ public class TunaCan : MonoBehaviour
         canCollider.SetActive(false);
         treeCollider.SetActive(false);
         dialogue.canPlaced = true;
+        fameManager.fame++;
+
     }
 }

@@ -10,6 +10,7 @@ public class TreeOnFire : MonoBehaviour
     [SerializeField] private GameObject treeCollider;
     [SerializeField] private GameObject canObject;
     [SerializeField] public OldLadyDialogue dialogue;
+    [SerializeField] private FameManager fameManager;
 
     private void Start()
     {
@@ -37,5 +38,6 @@ public class TreeOnFire : MonoBehaviour
         treeCollider.SetActive(false);
         canObject.SetActive(false);
         dialogue.treeOnFire = true;
+        fameManager.fame--;
     }
 }
