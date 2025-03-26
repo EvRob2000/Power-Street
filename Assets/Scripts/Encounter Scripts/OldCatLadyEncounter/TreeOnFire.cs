@@ -30,13 +30,13 @@ public class TreeOnFire : MonoBehaviour
 
     private IEnumerator CatJump()
     {
+        canObject.SetActive(false);
         yield return new WaitForSeconds(1);
         burntCatJump.SetActive(true);
         yield return new WaitForSeconds(0.5f);
         burntCatJump.SetActive(false);
         burntCat.SetActive(true);
-        treeCollider.SetActive(false);
-        canObject.SetActive(false);
+        treeCollider.SetActive(false);       
         dialogue.treeOnFire = true;
         fameManager.fame--;
     }
