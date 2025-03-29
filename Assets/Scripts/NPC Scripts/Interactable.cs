@@ -4,12 +4,10 @@ using UnityEngine;
 
 public class Interactable : MonoBehaviour
 {
-    [SerializeField] private GameObject outline;
     [SerializeField] private GameObject ePrompt;
 
     private void Start()
     {
-        outline.SetActive(false);
         ePrompt.SetActive(false);
     }
 
@@ -17,8 +15,6 @@ public class Interactable : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            //Debug.Log("Interact available");
-            //outline.SetActive(true);
             ePrompt.SetActive(true);
         }
     }
@@ -27,7 +23,6 @@ public class Interactable : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            //outline.SetActive(false);
             ePrompt.SetActive(false);
         }
     }
