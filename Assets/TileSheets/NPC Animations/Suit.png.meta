@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 346196e21d7b08840ad7da7cacfa3cdd
+guid: 9361eae5ac6f163489d6c7b878d98836
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: 4
-    textureCompression: 1
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -123,7 +123,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Shop Clerk_0
+      name: Suit 2_0
       rect:
         serializedVersion: 2
         x: 0
@@ -137,14 +137,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c87e5ad1c4d7288429c9fbf3f3eee945
-      internalID: -1941021531
+      spriteID: c6773a325e9a9784d8aefb8639db19f3
+      internalID: -1383720517
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Shop Clerk_1
+      name: Suit 2_1
       rect:
         serializedVersion: 2
         x: 16
@@ -158,14 +158,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b03f9084e13bc3a428f1ec7f95996a4c
-      internalID: -982065526
+      spriteID: 0cc3fff0351daa2488b8bbe1b682f474
+      internalID: -1927890792
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Shop Clerk_2
+      name: Suit 2_2
       rect:
         serializedVersion: 2
         x: 32
@@ -179,14 +179,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f1bcfe9097eebf84da995b439e172000
-      internalID: -948270870
+      spriteID: 1e25ea3e553fe1b4d802e0192681c648
+      internalID: -59557837
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Shop Clerk_3
+      name: Suit 2_3
       rect:
         serializedVersion: 2
         x: 48
@@ -200,14 +200,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b229d1a7c6f813a40bf4a35a13ec8c12
-      internalID: 443216218
+      spriteID: 8e3f0f4eec1a6e7478861041fe82af2d
+      internalID: -1303858342
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Shop Clerk_4
+      name: Suit 2_4
       rect:
         serializedVersion: 2
         x: 64
@@ -221,14 +221,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b3f3a7d486ff7cc408dd422efaefa047
-      internalID: 785130752
+      spriteID: 141611926b65ce948a669a9dfc2c8048
+      internalID: -710290332
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Shop Clerk_5
+      name: Suit 2_5
       rect:
         serializedVersion: 2
         x: 80
@@ -242,14 +242,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0ca00d6bf62a89749b464d44d3c640b7
-      internalID: 2074697263
+      spriteID: 306b43cc6bcb574409cf39f3e57d8830
+      internalID: 323149495
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Shop Clerk_6
+      name: Suit 2_6
       rect:
         serializedVersion: 2
         x: 96
@@ -263,14 +263,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bfc576a91fc0fbd4594c20933b9e6ea3
-      internalID: 362751412
+      spriteID: c489f97c4f6b7f84984c22a3350c1176
+      internalID: 808258910
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Shop Clerk_7
+      name: Suit 2_7
       rect:
         serializedVersion: 2
         x: 112
@@ -284,14 +284,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 28581830feec55647b3be3e015b46358
-      internalID: -2118201761
+      spriteID: f5b03ccf344bd09499f580892fdde150
+      internalID: -1340302393
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Shop Clerk_8
+      name: Suit 2_8
       rect:
         serializedVersion: 2
         x: 128
@@ -305,14 +305,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7244e102d22f10d4981c5c9a1d06595e
-      internalID: -108940358
+      spriteID: f4e9bd80633e9a246954a3e9883ce3db
+      internalID: 326733299
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Shop Clerk_9
+      name: Suit 2_9
       rect:
         serializedVersion: 2
         x: 144
@@ -326,14 +326,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 71beade59678d0242bfcbba2f24ebe8e
-      internalID: -2030858393
+      spriteID: 615d90c235ea67e468507494cc4a5b4a
+      internalID: -912849041
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Shop Clerk_10
+      name: Suit 2_10
       rect:
         serializedVersion: 2
         x: 160
@@ -347,14 +347,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 199dc84634ebb6447b28bf3ad5dfccfa
-      internalID: 1659161888
+      spriteID: 935d28368822a7d43943ec4a8a93df20
+      internalID: -1712040966
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Shop Clerk_11
+      name: Suit 2_11
       rect:
         serializedVersion: 2
         x: 176
@@ -368,14 +368,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5e023a6e937ea90488c30185ca9a1cf5
-      internalID: 1101920348
+      spriteID: 5455b43f0922fc34d958318205791d48
+      internalID: 1469709584
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Shop Clerk_12
+      name: Suit 2_12
       rect:
         serializedVersion: 2
         x: 192
@@ -389,14 +389,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 14f398d3940bd2345b4e00b772c8322b
-      internalID: 2009384106
+      spriteID: c28d00ad357a422489c08035b0591a83
+      internalID: 259156468
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Shop Clerk_13
+      name: Suit 2_13
       rect:
         serializedVersion: 2
         x: 208
@@ -410,14 +410,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cf216ccfa062b3a4fa7dc585a06d73ce
-      internalID: -1780985433
+      spriteID: e7f3955d606cf4849b86ce92ad715f53
+      internalID: -1515548193
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Shop Clerk_14
+      name: Suit 2_14
       rect:
         serializedVersion: 2
         x: 224
@@ -431,14 +431,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 09bfe9cee0b7a7542ab9d338c9b38e56
-      internalID: 404523912
+      spriteID: e9cb7b4dfeec76140a6095c3dfc16f78
+      internalID: 1621639436
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Shop Clerk_15
+      name: Suit 2_15
       rect:
         serializedVersion: 2
         x: 240
@@ -452,14 +452,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: afb0a41d1fe12a04d97bc1a17c036685
-      internalID: 54940149
+      spriteID: 8f2d0872431c09049a80f6fbc8be5748
+      internalID: -896551395
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Shop Clerk_16
+      name: Suit 2_16
       rect:
         serializedVersion: 2
         x: 256
@@ -473,14 +473,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 24b12dedd6c3bd0448c8041aa858551a
-      internalID: -485770615
+      spriteID: 35ecdf189ad87f04696a7c19d26efc9c
+      internalID: -743603715
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Shop Clerk_17
+      name: Suit 2_17
       rect:
         serializedVersion: 2
         x: 272
@@ -494,14 +494,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ac8ba0a4bf5d0df42b13e3eaa79cfd84
-      internalID: -452033391
+      spriteID: d1dfd81e208d42849952bf396b7c9335
+      internalID: 961521624
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Shop Clerk_18
+      name: Suit 2_18
       rect:
         serializedVersion: 2
         x: 288
@@ -515,14 +515,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 23eb104ee074c754b9ad08be9d90ed9a
-      internalID: -254975174
+      spriteID: 3b72fb064c7ad314e97bad84e091b277
+      internalID: 1493144219
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Shop Clerk_19
+      name: Suit 2_19
       rect:
         serializedVersion: 2
         x: 304
@@ -536,14 +536,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3617b8c8136fb7843b8d395f7a4e8644
-      internalID: 1456484366
+      spriteID: 84288d00a2b64a642a18976726db525c
+      internalID: -1933832774
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Shop Clerk_20
+      name: Suit 2_20
       rect:
         serializedVersion: 2
         x: 320
@@ -557,14 +557,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 90860a48e7ae3244ab132739c0a7dee9
-      internalID: -157963459
+      spriteID: 4c4031466c18fe445b35100ad2e1815d
+      internalID: -456131682
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Shop Clerk_21
+      name: Suit 2_21
       rect:
         serializedVersion: 2
         x: 336
@@ -578,14 +578,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5a59570d0ee3a7a4db2f911a6ed72820
-      internalID: 1084839574
+      spriteID: 037ada9a934fa814c95e0354a7298da5
+      internalID: -1539668113
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Shop Clerk_22
+      name: Suit 2_22
       rect:
         serializedVersion: 2
         x: 352
@@ -599,14 +599,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d41324e6415199a4ca8a9035c4996a3d
-      internalID: -334423491
+      spriteID: e0797967cf2ba364399ea624fba63f5b
+      internalID: 1476863010
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Shop Clerk_23
+      name: Suit 2_23
       rect:
         serializedVersion: 2
         x: 368
@@ -620,8 +620,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b30c3a01ef86591439eb866ffc62854c
-      internalID: 419792073
+      spriteID: 23c01223ded8319489792805d970cb61
+      internalID: 179637722
       vertices: []
       indices: 
       edges: []
@@ -637,30 +637,30 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Shop Clerk_0: -1941021531
-      Shop Clerk_1: -982065526
-      Shop Clerk_10: 1659161888
-      Shop Clerk_11: 1101920348
-      Shop Clerk_12: 2009384106
-      Shop Clerk_13: -1780985433
-      Shop Clerk_14: 404523912
-      Shop Clerk_15: 54940149
-      Shop Clerk_16: -485770615
-      Shop Clerk_17: -452033391
-      Shop Clerk_18: -254975174
-      Shop Clerk_19: 1456484366
-      Shop Clerk_2: -948270870
-      Shop Clerk_20: -157963459
-      Shop Clerk_21: 1084839574
-      Shop Clerk_22: -334423491
-      Shop Clerk_23: 419792073
-      Shop Clerk_3: 443216218
-      Shop Clerk_4: 785130752
-      Shop Clerk_5: 2074697263
-      Shop Clerk_6: 362751412
-      Shop Clerk_7: -2118201761
-      Shop Clerk_8: -108940358
-      Shop Clerk_9: -2030858393
+      Suit 2_0: -1383720517
+      Suit 2_1: -1927890792
+      Suit 2_10: -1712040966
+      Suit 2_11: 1469709584
+      Suit 2_12: 259156468
+      Suit 2_13: -1515548193
+      Suit 2_14: 1621639436
+      Suit 2_15: -896551395
+      Suit 2_16: -743603715
+      Suit 2_17: 961521624
+      Suit 2_18: 1493144219
+      Suit 2_19: -1933832774
+      Suit 2_2: -59557837
+      Suit 2_20: -456131682
+      Suit 2_21: -1539668113
+      Suit 2_22: 1476863010
+      Suit 2_23: 179637722
+      Suit 2_3: -1303858342
+      Suit 2_4: -710290332
+      Suit 2_5: 323149495
+      Suit 2_6: 808258910
+      Suit 2_7: -1340302393
+      Suit 2_8: 326733299
+      Suit 2_9: -912849041
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
