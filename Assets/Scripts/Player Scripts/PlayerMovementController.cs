@@ -54,7 +54,7 @@ public class PlayerMovementController : MonoBehaviour
             Vector3 vector3 = Vector3.left * lastMoveDirection.x + Vector3.down * lastMoveDirection.y;
             aim.rotation = Quaternion.LookRotation(Vector3.forward, vector3);
         }
-        else if (moveX == 0 || moveY == 0)
+        else if (moveX != 0 || moveY != 0)
         {
             isWalking = true;
         }
