@@ -7,44 +7,22 @@ public class Enemy : MonoBehaviour
 {
     public float health, maxHealth = 5f;
     [SerializeField] public Image healthBar;
-    public float moveSpeed = 2f;
-    Rigidbody rb;
-    [SerializeField] private Transform target;
-    Vector2 moveDirection;
     [SerializeField] private FameManager fameManager;
-
-    private void Awake()
-    {
-        rb = GetComponent<Rigidbody>();
-    }
+    private Transform target;
+    public float speed;
 
     // Start is called before the first frame update
     void Start()
     {
         health = maxHealth;
+        target = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (target)
-        {
-            Vector3 direction = (target.position - transform.position).normalized;
-            moveDirection = direction;
-
-            /*float angle = Mathf.Atan2(direction.x, direction.y * Mathf.Rad2Deg);
-            rb.rotation = angle;*/
-        }
-
         healthBar.fillAmount = Mathf.Clamp(health / maxHealth, 0, 1);
-    }
-
-    private void FixedUpdate()
-    {
-        if (target)
-        {
-            rb.velocity = new Vector2(moveDirection.x, moveDirection.y) * moveSpeed;
-        }
+        transform.position = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
     }
 
     public void TakeDamage(float damage)
