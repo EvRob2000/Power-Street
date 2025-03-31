@@ -398,7 +398,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06a28592c69332f4b962170f4366960e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  outline: {fileID: 1823506191}
   ePrompt: {fileID: 638065382}
 --- !u!61 &91293451
 BoxCollider2D:
@@ -1292,7 +1291,7 @@ MonoBehaviour:
   m_Priority: 10
   m_StandbyUpdate: 2
   m_LookAt: {fileID: 0}
-  m_Follow: {fileID: 2380060433995043913}
+  m_Follow: {fileID: 0}
   m_Lens:
     FieldOfView: 60
     OrthographicSize: 7
@@ -1743,7 +1742,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ePrompt: {fileID: 813582696}
-  player: {fileID: 2380060433995043913}
+  player: {fileID: 0}
   targetLocation: {fileID: 1237224793}
   camBounds1: {fileID: 149194987}
   camBounds2: {fileID: 400999010}
@@ -2124,7 +2123,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3003792fd1c6ef1489625524c426e04e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerHealth: {fileID: 4533994791579343350}
+  playerHealth: {fileID: 1307932468}
   damage: 10
 --- !u!61 &420923824
 BoxCollider2D:
@@ -2250,6 +2249,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef1bb05261d2b144e86cf332d59d659e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveSpeed: 2
+  target: {fileID: 1307932467}
 --- !u!1 &459013662
 GameObject:
   m_ObjectHideFlags: 0
@@ -3500,7 +3501,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06a28592c69332f4b962170f4366960e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  outline: {fileID: 1594779324}
   ePrompt: {fileID: 562662089}
 --- !u!61 &626337279
 BoxCollider2D:
@@ -31260,7 +31260,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ePrompt: {fileID: 459013662}
-  player: {fileID: 2380060433995043913}
+  player: {fileID: 0}
   targetLocation: {fileID: 356003759}
   camBounds1: {fileID: 400999010}
   camBounds2: {fileID: 149194987}
@@ -31365,7 +31365,7 @@ MonoBehaviour:
   m_Priority: 10
   m_StandbyUpdate: 2
   m_LookAt: {fileID: 0}
-  m_Follow: {fileID: 2380060433995043913}
+  m_Follow: {fileID: 0}
   m_Lens:
     FieldOfView: 60
     OrthographicSize: 7
@@ -31666,6 +31666,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!4 &1307932467 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7380777227375211272, guid: c6cf00ad0d8d7da4c8bf741653332e67, type: 3}
+  m_PrefabInstance: {fileID: 663577058632838573}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1307932468 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2626696333531068085, guid: c6cf00ad0d8d7da4c8bf741653332e67, type: 3}
+  m_PrefabInstance: {fileID: 663577058632838573}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73972ede57f1f2b419385d72b422b4a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1359511663
 GameObject:
   m_ObjectHideFlags: 0
@@ -31805,7 +31821,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b04931d30baeb494895a67abdc57a15c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerHealth: {fileID: 4533994791579343350}
+  playerHealth: {fileID: 0}
   heal: 10
 --- !u!61 &1393528977
 BoxCollider2D:
@@ -33778,7 +33794,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06a28592c69332f4b962170f4366960e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  outline: {fileID: 614271550}
   ePrompt: {fileID: 694277541}
 --- !u!114 &1594476606
 MonoBehaviour:
@@ -46874,7 +46889,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06a28592c69332f4b962170f4366960e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  outline: {fileID: 1563674674}
   ePrompt: {fileID: 1699418404}
 --- !u!61 &2133401557
 BoxCollider2D:
@@ -47252,6 +47266,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2626696333531068085, guid: c6cf00ad0d8d7da4c8bf741653332e67, type: 3}
+      propertyPath: healthBar
+      value: 
+      objectReference: {fileID: 1235959107}
+    - target: {fileID: 2626696333531068085, guid: c6cf00ad0d8d7da4c8bf741653332e67, type: 3}
+      propertyPath: healthText
+      value: 
+      objectReference: {fileID: 998513644}
+    - target: {fileID: 2626696333531068085, guid: c6cf00ad0d8d7da4c8bf741653332e67, type: 3}
+      propertyPath: gameOverScreen
+      value: 
+      objectReference: {fileID: 787063053}
     - target: {fileID: 4339453881488802239, guid: c6cf00ad0d8d7da4c8bf741653332e67, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.45
@@ -47313,22 +47339,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c6cf00ad0d8d7da4c8bf741653332e67, type: 3}
---- !u!4 &2380060433995043913 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4339453881488802239, guid: c6cf00ad0d8d7da4c8bf741653332e67, type: 3}
-  m_PrefabInstance: {fileID: 663577058632838573}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &4533994791579343350 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8849939385127347922, guid: c6cf00ad0d8d7da4c8bf741653332e67, type: 3}
-  m_PrefabInstance: {fileID: 663577058632838573}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 73972ede57f1f2b419385d72b422b4a1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
