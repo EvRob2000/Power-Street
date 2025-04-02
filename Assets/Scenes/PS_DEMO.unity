@@ -1253,7 +1253,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueText: {fileID: 2068658785}
   sentences:
-  - Thank you so much! I should've done that.
+  - 'Thank you so much! '
   dialogueSpeed: 0.05
   dialogueBox: {fileID: 632922725}
 --- !u!114 &212588402
@@ -22696,7 +22696,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueText: {fileID: 64306677}
   sentences:
-  - i yam criminal
+  - Hey look man...
+  - My kid has cancer.
+  - I need this watch to pay for treatment.
+  - Can you just let this slide?
   dialogueSpeed: 0.05
   dialogueBox: {fileID: 191036964}
 --- !u!114 &927387268
@@ -38828,7 +38831,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueText: {fileID: 682364126}
   sentences:
-  - i yam criminal
+  - Thank you so much
+  - I really owe you one
   dialogueSpeed: 0.05
   dialogueBox: {fileID: 1778760398}
 --- !u!114 &2052249122
