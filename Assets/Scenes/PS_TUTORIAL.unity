@@ -6150,6 +6150,184 @@ Transform:
   - {fileID: 128013992}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &536222863
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1598949952173071037, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
+      propertyPath: m_Name
+      value: Alien 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3729681105766680700, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: edf897353ac6f984098a32691ad9201b, type: 2}
+    - target: {fileID: 7302299763059585061, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
+      propertyPath: sentences.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7302299763059585061, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
+      propertyPath: sentences.Array.data[0]
+      value: I will help you learn to fight
+      objectReference: {fileID: 0}
+    - target: {fileID: 7302299763059585061, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
+      propertyPath: sentences.Array.data[1]
+      value: Hit me when you are ready
+      objectReference: {fileID: 0}
+    - target: {fileID: 7302299763059585061, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
+      propertyPath: sentences.Array.data[2]
+      value: Don't worry, I am ready to die
+      objectReference: {fileID: 0}
+    - target: {fileID: 7302299763059585061, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
+      propertyPath: sentences.Array.data[3]
+      value: '*waits for applause* '
+      objectReference: {fileID: 0}
+    - target: {fileID: 7302299763059585061, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
+      propertyPath: sentences.Array.data[4]
+      value: And I'm stuck on a level here...
+      objectReference: {fileID: 0}
+    - target: {fileID: 8238035213718126372, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -2080284819, guid: a1afeccfefb862b41a199583ba414fda, type: 3}
+    - target: {fileID: 8656332322696934765, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 7.39
+      objectReference: {fileID: 0}
+    - target: {fileID: 8656332322696934765, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 8656332322696934765, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8656332322696934765, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8656332322696934765, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8656332322696934765, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8656332322696934765, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8656332322696934765, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8656332322696934765, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8656332322696934765, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
+--- !u!1001 &879506195
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1598949952173071037, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
+      propertyPath: m_Name
+      value: Alien 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3729681105766680700, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: edf897353ac6f984098a32691ad9201b, type: 2}
+    - target: {fileID: 7302299763059585061, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
+      propertyPath: sentences.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7302299763059585061, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
+      propertyPath: sentences.Array.data[0]
+      value: Go back and talk to my brother
+      objectReference: {fileID: 0}
+    - target: {fileID: 7302299763059585061, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
+      propertyPath: sentences.Array.data[1]
+      value: We have decided to bestow upon you gifts!
+      objectReference: {fileID: 0}
+    - target: {fileID: 7302299763059585061, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
+      propertyPath: sentences.Array.data[2]
+      value: You can left click to shoot fire!
+      objectReference: {fileID: 0}
+    - target: {fileID: 7302299763059585061, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
+      propertyPath: sentences.Array.data[3]
+      value: '*waits for applause* '
+      objectReference: {fileID: 0}
+    - target: {fileID: 7302299763059585061, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
+      propertyPath: sentences.Array.data[4]
+      value: And I'm stuck on a level here...
+      objectReference: {fileID: 0}
+    - target: {fileID: 8238035213718126372, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -2080284819, guid: a1afeccfefb862b41a199583ba414fda, type: 3}
+    - target: {fileID: 8656332322696934765, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 14.47
+      objectReference: {fileID: 0}
+    - target: {fileID: 8656332322696934765, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 8656332322696934765, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8656332322696934765, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8656332322696934765, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8656332322696934765, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8656332322696934765, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8656332322696934765, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8656332322696934765, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8656332322696934765, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
 --- !u!1 &1687198779
 GameObject:
   m_ObjectHideFlags: 0
@@ -7172,7 +7350,7 @@ Tilemap:
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.8037735, g: 0.8037735, b: 0.8037735, a: 1}
   m_Origin: {x: -2, y: -8, z: 0}
   m_Size: {x: 25, y: 10, z: 1}
   m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
@@ -8190,6 +8368,188 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1001 &1902086006
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1598949952173071037, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
+      propertyPath: m_Name
+      value: Alien 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3729681105766680700, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: edf897353ac6f984098a32691ad9201b, type: 2}
+    - target: {fileID: 7302299763059585061, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
+      propertyPath: sentences.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7302299763059585061, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
+      propertyPath: sentences.Array.data[0]
+      value: Hello! (Press E to continue)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7302299763059585061, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
+      propertyPath: sentences.Array.data[1]
+      value: We have decided to bestow upon you gifts!
+      objectReference: {fileID: 0}
+    - target: {fileID: 7302299763059585061, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
+      propertyPath: sentences.Array.data[2]
+      value: You can left click to shoot fire!
+      objectReference: {fileID: 0}
+    - target: {fileID: 7302299763059585061, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
+      propertyPath: sentences.Array.data[3]
+      value: '*waits for applause* '
+      objectReference: {fileID: 0}
+    - target: {fileID: 7302299763059585061, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
+      propertyPath: sentences.Array.data[4]
+      value: And I'm stuck on a level here...
+      objectReference: {fileID: 0}
+    - target: {fileID: 8238035213718126372, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -2080284819, guid: a1afeccfefb862b41a199583ba414fda, type: 3}
+    - target: {fileID: 8656332322696934765, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.28
+      objectReference: {fileID: 0}
+    - target: {fileID: 8656332322696934765, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 8656332322696934765, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8656332322696934765, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8656332322696934765, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8656332322696934765, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8656332322696934765, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8656332322696934765, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8656332322696934765, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8656332322696934765, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
+--- !u!1001 &1923332637
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1598949952173071037, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
+      propertyPath: m_Name
+      value: Alien 3 finished
+      objectReference: {fileID: 0}
+    - target: {fileID: 1598949952173071037, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3729681105766680700, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: edf897353ac6f984098a32691ad9201b, type: 2}
+    - target: {fileID: 7302299763059585061, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
+      propertyPath: sentences.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7302299763059585061, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
+      propertyPath: sentences.Array.data[0]
+      value: Go forth and use your awesome powers...
+      objectReference: {fileID: 0}
+    - target: {fileID: 7302299763059585061, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
+      propertyPath: sentences.Array.data[1]
+      value: We have decided to bestow upon you gifts!
+      objectReference: {fileID: 0}
+    - target: {fileID: 7302299763059585061, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
+      propertyPath: sentences.Array.data[2]
+      value: You can left click to shoot fire!
+      objectReference: {fileID: 0}
+    - target: {fileID: 7302299763059585061, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
+      propertyPath: sentences.Array.data[3]
+      value: '*waits for applause* '
+      objectReference: {fileID: 0}
+    - target: {fileID: 7302299763059585061, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
+      propertyPath: sentences.Array.data[4]
+      value: And I'm stuck on a level here...
+      objectReference: {fileID: 0}
+    - target: {fileID: 8238035213718126372, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -2080284819, guid: a1afeccfefb862b41a199583ba414fda, type: 3}
+    - target: {fileID: 8656332322696934765, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 15.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8656332322696934765, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 8656332322696934765, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8656332322696934765, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8656332322696934765, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8656332322696934765, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8656332322696934765, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8656332322696934765, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8656332322696934765, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8656332322696934765, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
 --- !u!1 &1939281673
 GameObject:
   m_ObjectHideFlags: 0
@@ -9553,3 +9913,7 @@ SceneRoots:
   m_Roots:
   - {fileID: 1687198782}
   - {fileID: 374374093}
+  - {fileID: 1902086006}
+  - {fileID: 536222863}
+  - {fileID: 879506195}
+  - {fileID: 1923332637}
