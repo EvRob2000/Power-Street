@@ -1200,8 +1200,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueText: {fileID: 2068658785}
   sentences:
-  - good job
-  dialogueSpeed: 0.2
+  - Thank you so much! I should've done that.
+  dialogueSpeed: 0.05
   dialogueBox: {fileID: 632922725}
 --- !u!114 &212588402
 MonoBehaviour:
@@ -22296,8 +22296,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueText: {fileID: 836009971}
   sentences:
-  - bad job
-  dialogueSpeed: 0.2
+  - WHAT! YOU COULD HAVE KILLED HIM!
+  dialogueSpeed: 0.05
   dialogueBox: {fileID: 1724477120}
 --- !u!61 &954284431
 BoxCollider2D:
@@ -34127,8 +34127,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueText: {fileID: 853779680}
   sentences:
-  - ayo
-  dialogueSpeed: 0.2
+  - Please save my cat! He's up in this tree!
+  dialogueSpeed: 0.05
   dialogueBox: {fileID: 609909938}
   treeOnFire: 0
   canPlaced: 0
