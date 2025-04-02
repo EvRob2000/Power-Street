@@ -39484,9 +39484,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueText: {fileID: 2014759006}
   sentences:
-  - sdasd
-  - asdasd
-  - asdasd
+  - Oh really? I didn't know that...
+  - Well, I got 6 more at home.
+  - 'He can keep it. '
   dialogueSpeed: 0.05
   dialogueBox: {fileID: 2014759005}
   crim: {fileID: 927387271}
