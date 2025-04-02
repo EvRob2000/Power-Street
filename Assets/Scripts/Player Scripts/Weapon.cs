@@ -9,9 +9,16 @@ public class Weapon : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         Enemy enemy = collision.GetComponent<Enemy>();
+
+        AlienEnemy alien = collision.GetComponent<AlienEnemy>();
+
         if(enemy != null)
         {
             enemy.TakeDamage(damage);
+        }
+        else if (alien != null)
+        {
+            alien.TakeDamage(damage);
         }
     }
 }
