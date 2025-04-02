@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 1e850abc5fd284f4ebb3c65cb3e2501c
+guid: 9361eae5ac6f163489d6c7b878d98836
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: 4
-    textureCompression: 1
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -123,7 +123,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Cop Phone Idle_0
+      name: Suit 2_0
       rect:
         serializedVersion: 2
         x: 0
@@ -137,14 +137,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b5b2a853ea2fbfb4ea881ddd4d536317
-      internalID: -361073949
+      spriteID: c6773a325e9a9784d8aefb8639db19f3
+      internalID: -1383720517
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cop Phone Idle_1
+      name: Suit 2_1
       rect:
         serializedVersion: 2
         x: 16
@@ -158,14 +158,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 15faf83c2853d57428fa52bb8c3cb364
-      internalID: -563350251
+      spriteID: 0cc3fff0351daa2488b8bbe1b682f474
+      internalID: -1927890792
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cop Phone Idle_2
+      name: Suit 2_2
       rect:
         serializedVersion: 2
         x: 32
@@ -179,14 +179,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ae8cac2619b171a4dbb32a983531a925
-      internalID: -1115961935
+      spriteID: 1e25ea3e553fe1b4d802e0192681c648
+      internalID: -59557837
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cop Phone Idle_3
+      name: Suit 2_3
       rect:
         serializedVersion: 2
         x: 48
@@ -200,14 +200,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f5a231555dce84f4f8cf01b6de8af94c
-      internalID: 226477088
+      spriteID: 8e3f0f4eec1a6e7478861041fe82af2d
+      internalID: -1303858342
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cop Phone Idle_4
+      name: Suit 2_4
       rect:
         serializedVersion: 2
         x: 64
@@ -221,14 +221,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a3698ac4339ea1244ae0f46b1ee69aa9
-      internalID: -2000227660
+      spriteID: 141611926b65ce948a669a9dfc2c8048
+      internalID: -710290332
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cop Phone Idle_5
+      name: Suit 2_5
       rect:
         serializedVersion: 2
         x: 80
@@ -242,14 +242,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 271c04b7730bfab468cd4dd9de12231c
-      internalID: -5438658
+      spriteID: 306b43cc6bcb574409cf39f3e57d8830
+      internalID: 323149495
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cop Phone Idle_6
+      name: Suit 2_6
       rect:
         serializedVersion: 2
         x: 96
@@ -263,14 +263,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f93f26f1aa591c84ab2d6d5af0298fb9
-      internalID: 159441372
+      spriteID: c489f97c4f6b7f84984c22a3350c1176
+      internalID: 808258910
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cop Phone Idle_7
+      name: Suit 2_7
       rect:
         serializedVersion: 2
         x: 112
@@ -284,14 +284,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 204e16e915042a04ab055d43b16b3d79
-      internalID: 1788381418
+      spriteID: f5b03ccf344bd09499f580892fdde150
+      internalID: -1340302393
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cop Phone Idle_8
+      name: Suit 2_8
       rect:
         serializedVersion: 2
         x: 128
@@ -305,14 +305,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6f2054902bae718499d16792205977f5
-      internalID: 601558147
+      spriteID: f4e9bd80633e9a246954a3e9883ce3db
+      internalID: 326733299
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cop Phone Idle_9
+      name: Suit 2_9
       rect:
         serializedVersion: 2
         x: 144
@@ -326,14 +326,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bc1bf610e092d864ba7c07e1782504f1
-      internalID: 1627369513
+      spriteID: 615d90c235ea67e468507494cc4a5b4a
+      internalID: -912849041
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cop Phone Idle_10
+      name: Suit 2_10
       rect:
         serializedVersion: 2
         x: 160
@@ -347,14 +347,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ebfd5960a12ff574fa61536f396ff223
-      internalID: -1200554796
+      spriteID: 935d28368822a7d43943ec4a8a93df20
+      internalID: -1712040966
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cop Phone Idle_11
+      name: Suit 2_11
       rect:
         serializedVersion: 2
         x: 176
@@ -368,8 +368,260 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 430bfff8cfe20a745ab0669d7430e5da
-      internalID: 1723393278
+      spriteID: 5455b43f0922fc34d958318205791d48
+      internalID: 1469709584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit 2_12
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c28d00ad357a422489c08035b0591a83
+      internalID: 259156468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit 2_13
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7f3955d606cf4849b86ce92ad715f53
+      internalID: -1515548193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit 2_14
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9cb7b4dfeec76140a6095c3dfc16f78
+      internalID: 1621639436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit 2_15
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f2d0872431c09049a80f6fbc8be5748
+      internalID: -896551395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit 2_16
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35ecdf189ad87f04696a7c19d26efc9c
+      internalID: -743603715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit 2_17
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1dfd81e208d42849952bf396b7c9335
+      internalID: 961521624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit 2_18
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b72fb064c7ad314e97bad84e091b277
+      internalID: 1493144219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit 2_19
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84288d00a2b64a642a18976726db525c
+      internalID: -1933832774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit 2_20
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c4031466c18fe445b35100ad2e1815d
+      internalID: -456131682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit 2_21
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 037ada9a934fa814c95e0354a7298da5
+      internalID: -1539668113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit 2_22
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0797967cf2ba364399ea624fba63f5b
+      internalID: 1476863010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit 2_23
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23c01223ded8319489792805d970cb61
+      internalID: 179637722
       vertices: []
       indices: 
       edges: []
@@ -385,18 +637,30 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Cop Phone Idle_0: -361073949
-      Cop Phone Idle_1: -563350251
-      Cop Phone Idle_10: -1200554796
-      Cop Phone Idle_11: 1723393278
-      Cop Phone Idle_2: -1115961935
-      Cop Phone Idle_3: 226477088
-      Cop Phone Idle_4: -2000227660
-      Cop Phone Idle_5: -5438658
-      Cop Phone Idle_6: 159441372
-      Cop Phone Idle_7: 1788381418
-      Cop Phone Idle_8: 601558147
-      Cop Phone Idle_9: 1627369513
+      Suit 2_0: -1383720517
+      Suit 2_1: -1927890792
+      Suit 2_10: -1712040966
+      Suit 2_11: 1469709584
+      Suit 2_12: 259156468
+      Suit 2_13: -1515548193
+      Suit 2_14: 1621639436
+      Suit 2_15: -896551395
+      Suit 2_16: -743603715
+      Suit 2_17: 961521624
+      Suit 2_18: 1493144219
+      Suit 2_19: -1933832774
+      Suit 2_2: -59557837
+      Suit 2_20: -456131682
+      Suit 2_21: -1539668113
+      Suit 2_22: 1476863010
+      Suit 2_23: 179637722
+      Suit 2_3: -1303858342
+      Suit 2_4: -710290332
+      Suit 2_5: 323149495
+      Suit 2_6: 808258910
+      Suit 2_7: -1340302393
+      Suit 2_8: 326733299
+      Suit 2_9: -912849041
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

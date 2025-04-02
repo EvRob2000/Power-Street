@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 1e850abc5fd284f4ebb3c65cb3e2501c
+guid: 274cbcf3be2498946beb471f8e22e2e0
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,7 +123,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Cop Phone Idle_0
+      name: Casual_0
       rect:
         serializedVersion: 2
         x: 0
@@ -137,14 +137,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b5b2a853ea2fbfb4ea881ddd4d536317
-      internalID: -361073949
+      spriteID: c10f4eaaaa9e0654da6ef3373d0702e3
+      internalID: 1215228692
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cop Phone Idle_1
+      name: Casual_1
       rect:
         serializedVersion: 2
         x: 16
@@ -158,14 +158,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 15faf83c2853d57428fa52bb8c3cb364
-      internalID: -563350251
+      spriteID: d6d76f4cc2bd80a419b4d3b4ae6adae5
+      internalID: -531348518
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cop Phone Idle_2
+      name: Casual_2
       rect:
         serializedVersion: 2
         x: 32
@@ -179,14 +179,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ae8cac2619b171a4dbb32a983531a925
-      internalID: -1115961935
+      spriteID: b15c104f3f97785479e014c2631af75c
+      internalID: 1228987161
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cop Phone Idle_3
+      name: Casual_3
       rect:
         serializedVersion: 2
         x: 48
@@ -200,14 +200,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f5a231555dce84f4f8cf01b6de8af94c
-      internalID: 226477088
+      spriteID: d693136d8e414a5418063d8df376ba59
+      internalID: -959743421
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cop Phone Idle_4
+      name: Casual_4
       rect:
         serializedVersion: 2
         x: 64
@@ -221,14 +221,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a3698ac4339ea1244ae0f46b1ee69aa9
-      internalID: -2000227660
+      spriteID: 98c5200e1f9fa3a4daab732341c34255
+      internalID: 1238026705
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cop Phone Idle_5
+      name: Casual_5
       rect:
         serializedVersion: 2
         x: 80
@@ -242,14 +242,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 271c04b7730bfab468cd4dd9de12231c
-      internalID: -5438658
+      spriteID: a5544cb22ed8a5e46842b2e94d8734e6
+      internalID: -139091606
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cop Phone Idle_6
+      name: Casual_6
       rect:
         serializedVersion: 2
         x: 96
@@ -263,14 +263,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f93f26f1aa591c84ab2d6d5af0298fb9
-      internalID: 159441372
+      spriteID: c8bf55cb4564e8f4783c6b5e094f9e6e
+      internalID: -1547488653
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cop Phone Idle_7
+      name: Casual_7
       rect:
         serializedVersion: 2
         x: 112
@@ -284,14 +284,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 204e16e915042a04ab055d43b16b3d79
-      internalID: 1788381418
+      spriteID: 273c7d04c53cbc44aa5300d275de4f70
+      internalID: -378570509
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cop Phone Idle_8
+      name: Casual_8
       rect:
         serializedVersion: 2
         x: 128
@@ -305,14 +305,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6f2054902bae718499d16792205977f5
-      internalID: 601558147
+      spriteID: 240acaddcc7676744afdc8876f33e744
+      internalID: -1808144380
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cop Phone Idle_9
+      name: Casual_9
       rect:
         serializedVersion: 2
         x: 144
@@ -326,14 +326,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bc1bf610e092d864ba7c07e1782504f1
-      internalID: 1627369513
+      spriteID: b9811a562c2fba1428976a13b425ffb5
+      internalID: 1985315700
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cop Phone Idle_10
+      name: Casual_10
       rect:
         serializedVersion: 2
         x: 160
@@ -347,14 +347,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ebfd5960a12ff574fa61536f396ff223
-      internalID: -1200554796
+      spriteID: bef355f39821bae43aefe016e4c346a6
+      internalID: -565946521
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cop Phone Idle_11
+      name: Casual_11
       rect:
         serializedVersion: 2
         x: 176
@@ -368,8 +368,260 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 430bfff8cfe20a745ab0669d7430e5da
-      internalID: 1723393278
+      spriteID: 657e6780b2fdb1e4f9cf3594b1b67964
+      internalID: -560628211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Casual_12
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a8a760e9fa56a84ebabc9bf6d8494a2
+      internalID: -1004356212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Casual_13
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bea9e5992c51bf47a97ba3a15f9735c
+      internalID: 604969777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Casual_14
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40428c6552d33f24785229f382e0db54
+      internalID: 656542778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Casual_15
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83bb85f9c024aaf49abbcfa1342980e1
+      internalID: -1632582838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Casual_16
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c04c320c8319c4240835f9a2b575ed95
+      internalID: -1368314465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Casual_17
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 591dc1eedda64e144869c162ddf91e8c
+      internalID: 1990941989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Casual_18
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e64cb2fb401d3d49a38643a631e70d4
+      internalID: -1475469824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Casual_19
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77991a1696a64f940a0fa9b41aa351f3
+      internalID: -745615949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Casual_20
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ab49141bef4a3146b02eac0cacc0062
+      internalID: 2074577026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Casual_21
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a3490a1d4d8d40429a2fd82ff09311d
+      internalID: 1068899976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Casual_22
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9d7951a62000e44fa532f5775ab07cd
+      internalID: -1989582696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Casual_23
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae7f33235c217d64588141825f0e9995
+      internalID: -1361392621
       vertices: []
       indices: 
       edges: []
@@ -385,18 +637,30 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Cop Phone Idle_0: -361073949
-      Cop Phone Idle_1: -563350251
-      Cop Phone Idle_10: -1200554796
-      Cop Phone Idle_11: 1723393278
-      Cop Phone Idle_2: -1115961935
-      Cop Phone Idle_3: 226477088
-      Cop Phone Idle_4: -2000227660
-      Cop Phone Idle_5: -5438658
-      Cop Phone Idle_6: 159441372
-      Cop Phone Idle_7: 1788381418
-      Cop Phone Idle_8: 601558147
-      Cop Phone Idle_9: 1627369513
+      Casual_0: 1215228692
+      Casual_1: -531348518
+      Casual_10: -565946521
+      Casual_11: -560628211
+      Casual_12: -1004356212
+      Casual_13: 604969777
+      Casual_14: 656542778
+      Casual_15: -1632582838
+      Casual_16: -1368314465
+      Casual_17: 1990941989
+      Casual_18: -1475469824
+      Casual_19: -745615949
+      Casual_2: 1228987161
+      Casual_20: 2074577026
+      Casual_21: 1068899976
+      Casual_22: -1989582696
+      Casual_23: -1361392621
+      Casual_3: -959743421
+      Casual_4: 1238026705
+      Casual_5: -139091606
+      Casual_6: -1547488653
+      Casual_7: -378570509
+      Casual_8: -1808144380
+      Casual_9: 1985315700
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

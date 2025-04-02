@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 1e850abc5fd284f4ebb3c65cb3e2501c
+guid: d1704a1275f22b44baee0b08ab260093
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,7 +123,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Cop Phone Idle_0
+      name: Criminal_0
       rect:
         serializedVersion: 2
         x: 0
@@ -137,14 +137,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b5b2a853ea2fbfb4ea881ddd4d536317
-      internalID: -361073949
+      spriteID: 1f6e3e88ff7a8ed49bf98e11eb69db0b
+      internalID: -4180039
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cop Phone Idle_1
+      name: Criminal_1
       rect:
         serializedVersion: 2
         x: 16
@@ -158,14 +158,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 15faf83c2853d57428fa52bb8c3cb364
-      internalID: -563350251
+      spriteID: 3a20cef022ea05d4b8b87293910e026d
+      internalID: 1751160763
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cop Phone Idle_2
+      name: Criminal_2
       rect:
         serializedVersion: 2
         x: 32
@@ -179,14 +179,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ae8cac2619b171a4dbb32a983531a925
-      internalID: -1115961935
+      spriteID: 147a8b75eabdc2a4e851ef569ad246b2
+      internalID: -1450006436
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cop Phone Idle_3
+      name: Criminal_3
       rect:
         serializedVersion: 2
         x: 48
@@ -200,14 +200,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f5a231555dce84f4f8cf01b6de8af94c
-      internalID: 226477088
+      spriteID: 461ad6819513f634b9fe31a3462f0db3
+      internalID: 1559870510
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cop Phone Idle_4
+      name: Criminal_4
       rect:
         serializedVersion: 2
         x: 64
@@ -221,14 +221,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a3698ac4339ea1244ae0f46b1ee69aa9
-      internalID: -2000227660
+      spriteID: 9e68e5ee9cdb78049ba09291698e8e51
+      internalID: 1655521351
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cop Phone Idle_5
+      name: Criminal_5
       rect:
         serializedVersion: 2
         x: 80
@@ -242,14 +242,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 271c04b7730bfab468cd4dd9de12231c
-      internalID: -5438658
+      spriteID: bc696871b679f19418e324b121795e9f
+      internalID: 269740611
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cop Phone Idle_6
+      name: Criminal_6
       rect:
         serializedVersion: 2
         x: 96
@@ -263,14 +263,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f93f26f1aa591c84ab2d6d5af0298fb9
-      internalID: 159441372
+      spriteID: 56f77ed6f2fc99a429dfb3bd98d10a04
+      internalID: 1466431197
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cop Phone Idle_7
+      name: Criminal_7
       rect:
         serializedVersion: 2
         x: 112
@@ -284,14 +284,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 204e16e915042a04ab055d43b16b3d79
-      internalID: 1788381418
+      spriteID: 41bd458d8fd5c3a4e844bbd6b733b88d
+      internalID: 2104240161
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cop Phone Idle_8
+      name: Criminal_8
       rect:
         serializedVersion: 2
         x: 128
@@ -305,14 +305,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6f2054902bae718499d16792205977f5
-      internalID: 601558147
+      spriteID: f99913798e3504249b81980f4d5853b0
+      internalID: -1047328102
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cop Phone Idle_9
+      name: Criminal_9
       rect:
         serializedVersion: 2
         x: 144
@@ -326,14 +326,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bc1bf610e092d864ba7c07e1782504f1
-      internalID: 1627369513
+      spriteID: dc6824d9dcdf24549824e96ee4e685c1
+      internalID: -662440585
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cop Phone Idle_10
+      name: Criminal_10
       rect:
         serializedVersion: 2
         x: 160
@@ -347,14 +347,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ebfd5960a12ff574fa61536f396ff223
-      internalID: -1200554796
+      spriteID: 3996028cc49899a4c88e144492813f1c
+      internalID: -1611192194
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cop Phone Idle_11
+      name: Criminal_11
       rect:
         serializedVersion: 2
         x: 176
@@ -368,8 +368,260 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 430bfff8cfe20a745ab0669d7430e5da
-      internalID: 1723393278
+      spriteID: 72c41cbf8d980674397cc25f15271404
+      internalID: -1549633003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Criminal_12
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a7dd1e27a2f35b4081d7d000c0e7895
+      internalID: -1614718782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Criminal_13
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10657e53cc12b974f959d34473387d11
+      internalID: 1320243485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Criminal_14
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a5b4ce3a3e3ce840958b16f3a3c1b0a
+      internalID: -1199160845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Criminal_15
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9d68fd21845c6e4f89df2545da10b1d
+      internalID: -450222309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Criminal_16
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 785beaec17d6b90418256e81af70c69b
+      internalID: 912735549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Criminal_17
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9e8aca8bebbdb24fa76e43b990e1f03
+      internalID: -1872571785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Criminal_18
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3b8abc7b9abbce43badfbe948cbd42c
+      internalID: 115146922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Criminal_19
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c734a2f9183245b43b7ff26a451901da
+      internalID: -1308276538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Criminal_20
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1d2f9dab3cf0f7458e93debdfe9e189
+      internalID: -1657925216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Criminal_21
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8af1f8c2940ab5a4ab61d9dea1a36a39
+      internalID: 309388561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Criminal_22
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 313c693dd041c3e41a88618b7ff07fa0
+      internalID: -1410716928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Criminal_23
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a201c2615099f84595d0f32d1e1f086
+      internalID: -660680243
       vertices: []
       indices: 
       edges: []
@@ -385,18 +637,30 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Cop Phone Idle_0: -361073949
-      Cop Phone Idle_1: -563350251
-      Cop Phone Idle_10: -1200554796
-      Cop Phone Idle_11: 1723393278
-      Cop Phone Idle_2: -1115961935
-      Cop Phone Idle_3: 226477088
-      Cop Phone Idle_4: -2000227660
-      Cop Phone Idle_5: -5438658
-      Cop Phone Idle_6: 159441372
-      Cop Phone Idle_7: 1788381418
-      Cop Phone Idle_8: 601558147
-      Cop Phone Idle_9: 1627369513
+      Criminal_0: -4180039
+      Criminal_1: 1751160763
+      Criminal_10: -1611192194
+      Criminal_11: -1549633003
+      Criminal_12: -1614718782
+      Criminal_13: 1320243485
+      Criminal_14: -1199160845
+      Criminal_15: -450222309
+      Criminal_16: 912735549
+      Criminal_17: -1872571785
+      Criminal_18: 115146922
+      Criminal_19: -1308276538
+      Criminal_2: -1450006436
+      Criminal_20: -1657925216
+      Criminal_21: 309388561
+      Criminal_22: -1410716928
+      Criminal_23: -660680243
+      Criminal_3: 1559870510
+      Criminal_4: 1655521351
+      Criminal_5: 269740611
+      Criminal_6: 1466431197
+      Criminal_7: 2104240161
+      Criminal_8: -1047328102
+      Criminal_9: -662440585
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
