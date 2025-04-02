@@ -224,7 +224,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7302299763059585061, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
       propertyPath: sentences.Array.data[1]
-      value: We have decided to bestow upon you gifts!
+      value: We have bestowed upon you gifts!
       objectReference: {fileID: 0}
     - target: {fileID: 7302299763059585061, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
       propertyPath: sentences.Array.data[2]
@@ -7202,15 +7202,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7302299763059585061, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
       propertyPath: sentences.Array.data[0]
-      value: I will help you learn to fight
+      value: I will help you learn to fight.
       objectReference: {fileID: 0}
     - target: {fileID: 7302299763059585061, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
       propertyPath: sentences.Array.data[1]
-      value: Hit me when you are ready
+      value: Hit me when you are ready.
       objectReference: {fileID: 0}
     - target: {fileID: 7302299763059585061, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
       propertyPath: sentences.Array.data[2]
-      value: Don't worry, I am ready to die
+      value: Don't worry, I am ready to die.
       objectReference: {fileID: 0}
     - target: {fileID: 7302299763059585061, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
       propertyPath: sentences.Array.data[3]
@@ -7850,15 +7850,15 @@ PrefabInstance:
       objectReference: {fileID: 9100000, guid: edf897353ac6f984098a32691ad9201b, type: 2}
     - target: {fileID: 7302299763059585061, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
       propertyPath: sentences.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7302299763059585061, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
       propertyPath: sentences.Array.data[0]
-      value: Go forth and use your awesome powers...
+      value: Go forth, use your awesome powers...
       objectReference: {fileID: 0}
     - target: {fileID: 7302299763059585061, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
       propertyPath: sentences.Array.data[1]
-      value: We have decided to bestow upon you gifts!
+      value: Your destiny lies to the north.
       objectReference: {fileID: 0}
     - target: {fileID: 7302299763059585061, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
       propertyPath: sentences.Array.data[2]
