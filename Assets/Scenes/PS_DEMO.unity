@@ -932,8 +932,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueText: {fileID: 2068658785}
   sentences:
-  - good job
-  dialogueSpeed: 0.2
+  - Thank you so much! I should've done that.
+  dialogueSpeed: 0.05
   dialogueBox: {fileID: 632922725}
 --- !u!114 &212588402
 MonoBehaviour:
@@ -2193,6 +2193,92 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 396747288}
   m_CullTransparentMesh: 1
+--- !u!1001 &402878599
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 934712965}
+    m_Modifications:
+    - target: {fileID: 1598949952173071037, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
+      propertyPath: m_Name
+      value: Mugged Citizen
+      objectReference: {fileID: 0}
+    - target: {fileID: 3729681105766680700, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: b0e83fccde6d3e647a0d7dd382f20e03, type: 2}
+    - target: {fileID: 7302299763059585061, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
+      propertyPath: sentences.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7302299763059585061, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
+      propertyPath: sentences.Array.data[0]
+      value: Hey! You gotta help me.
+      objectReference: {fileID: 0}
+    - target: {fileID: 7302299763059585061, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
+      propertyPath: sentences.Array.data[1]
+      value: That guy in the alley stole my watch!
+      objectReference: {fileID: 0}
+    - target: {fileID: 7302299763059585061, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
+      propertyPath: sentences.Array.data[2]
+      value: This city is really going downhill
+      objectReference: {fileID: 0}
+    - target: {fileID: 8238035213718126372, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -456131682, guid: 9361eae5ac6f163489d6c7b878d98836, type: 3}
+    - target: {fileID: 8656332322696934765, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 41.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8656332322696934765, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 38.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8656332322696934765, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.47464806
+      objectReference: {fileID: 0}
+    - target: {fileID: 8656332322696934765, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8656332322696934765, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8656332322696934765, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8656332322696934765, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8656332322696934765, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8656332322696934765, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8656332322696934765, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
+--- !u!4 &402878600 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8656332322696934765, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
+  m_PrefabInstance: {fileID: 402878599}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &420173714
 GameObject:
   m_ObjectHideFlags: 0
@@ -19461,6 +19547,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cop Phone Idle_3
       objectReference: {fileID: 0}
+    - target: {fileID: 7302299763059585061, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
+      propertyPath: sentences.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7302299763059585061, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
+      propertyPath: sentences.Array.data[2]
+      value: And someone was mugged in that alley.
+      objectReference: {fileID: 0}
+    - target: {fileID: 7302299763059585061, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
+      propertyPath: sentences.Array.data[3]
+      value: Can't move until everything is sorted.
+      objectReference: {fileID: 0}
+    - target: {fileID: 7302299763059585061, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
+      propertyPath: sentences.Array.data[4]
+      value: And I'm stuck on a level here...
+      objectReference: {fileID: 0}
     - target: {fileID: 8656332322696934765, guid: 0e2958c246394e14aa645d7cb1b804ec, type: 3}
       propertyPath: m_LocalPosition.x
       value: 26.831348
@@ -21738,6 +21840,7 @@ Transform:
   - {fileID: 583419781}
   - {fileID: 1812974803}
   - {fileID: 738650763}
+  - {fileID: 402878600}
   - {fileID: 7312293724522948672}
   - {fileID: 6515754650166287118}
   - {fileID: 9019746991957752995}
@@ -21842,8 +21945,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueText: {fileID: 836009971}
   sentences:
-  - bad job
-  dialogueSpeed: 0.2
+  - WHAT! YOU COULD HAVE KILLED HIM!
+  dialogueSpeed: 0.05
   dialogueBox: {fileID: 1724477120}
 --- !u!61 &954284431
 BoxCollider2D:
@@ -35055,8 +35158,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueText: {fileID: 853779680}
   sentences:
-  - ayo
-  dialogueSpeed: 0.2
+  - Please save my cat! He's up in this tree!
+  dialogueSpeed: 0.05
   dialogueBox: {fileID: 609909938}
   treeOnFire: 0
   canPlaced: 0
@@ -37595,6 +37698,10 @@ PrefabInstance:
     - target: {fileID: 6846373614789446280, guid: 1b3a1d36ba670a34888266d576679590, type: 3}
       propertyPath: m_Name
       value: Suit 2_18
+      objectReference: {fileID: 0}
+    - target: {fileID: 6846373614789446280, guid: 1b3a1d36ba670a34888266d576679590, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
