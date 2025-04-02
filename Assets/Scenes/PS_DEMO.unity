@@ -22699,7 +22699,7 @@ MonoBehaviour:
   - Hey look man...
   - My kid has cancer.
   - I need this watch to pay for treatment.
-  - Can you just let this slide?
+  - Can you ask him this slide?
   dialogueSpeed: 0.05
   dialogueBox: {fileID: 191036964}
 --- !u!114 &927387268
