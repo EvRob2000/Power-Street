@@ -14,6 +14,7 @@ public class FameManager : MonoBehaviour
     public bool alleyway;
 
     [SerializeField] private GameObject copBarrier;
+    [SerializeField] private GameObject cop;
 
     // Start is called before the first frame update
     void Start()
@@ -33,6 +34,7 @@ public class FameManager : MonoBehaviour
         if (oldLady && alleyway)
         {
             copBarrier.SetActive(false);
+            cop.SetActive(false);
         }
     }
 
