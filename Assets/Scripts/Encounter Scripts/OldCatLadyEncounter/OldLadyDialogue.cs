@@ -41,8 +41,6 @@ public class OldLadyDialogue : MonoBehaviour
             NextSentence();
         }
 
-        Debug.Log(count);
-
         if (treeOnFire)
         {
             oldLady.SetActive(false);

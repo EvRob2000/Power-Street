@@ -47,7 +47,7 @@ public class Damage : MonoBehaviour
 
         anim.SetBool("isAttacking", false);
 
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(0.5f);
 
         canAttack = true;
     }
