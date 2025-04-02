@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: cd726976aa07b8a4d8cae4a146ab4b87
+guid: 93f8525ba39e21d4f96b759f50e60655
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,7 +123,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Player Attack_0
+      name: Criminal Walk_0
       rect:
         serializedVersion: 2
         x: 0
@@ -137,14 +137,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8f35aa39c0ba1534297d42d5edd95c30
-      internalID: -2099122752
+      spriteID: 1fad11010c997bd4284691d88da1b8e2
+      internalID: -1356411193
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Attack_1
+      name: Criminal Walk_1
       rect:
         serializedVersion: 2
         x: 16
@@ -158,14 +158,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a0ce80a50ef869745b25affba47970df
-      internalID: 2067114185
+      spriteID: b337a9c76a816774b8028d36bb91d323
+      internalID: -528833011
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Attack_2
+      name: Criminal Walk_2
       rect:
         serializedVersion: 2
         x: 32
@@ -179,14 +179,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 13240ab2207a05948bd4c293e4b667b3
-      internalID: -2086049407
+      spriteID: a35164335693ec44abf743f0d99aecb1
+      internalID: 1244663616
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Attack_3
+      name: Criminal Walk_3
       rect:
         serializedVersion: 2
         x: 48
@@ -200,14 +200,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: adbb3b03903dd644cac8562792992f09
-      internalID: -2132104066
+      spriteID: a5baf75eb18819c4ca4ae7a083da2134
+      internalID: 1292414909
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Attack_4
+      name: Criminal Walk_4
       rect:
         serializedVersion: 2
         x: 64
@@ -221,14 +221,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 53ce0ab97d60c6d4c998bd3fa5fc7a0e
-      internalID: 1469661648
+      spriteID: 6787f242c30888a4fafabb14550b2267
+      internalID: 216657444
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Attack_5
+      name: Criminal Walk_5
       rect:
         serializedVersion: 2
         x: 80
@@ -242,14 +242,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6e3d5522210c2794f8ca8d436ce1cd1e
-      internalID: -1332870047
+      spriteID: 1e118cb52f29f3347a964b3af9f381d5
+      internalID: 1763011259
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Attack_6
+      name: Criminal Walk_6
       rect:
         serializedVersion: 2
         x: 96
@@ -263,14 +263,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dfac94c3c2fa6764797063a5902cfca4
-      internalID: 688702375
+      spriteID: 4fee18ad29bac5440b9ca5ba717d68a9
+      internalID: -419518623
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Attack_7
+      name: Criminal Walk_7
       rect:
         serializedVersion: 2
         x: 112
@@ -284,14 +284,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e98401185ad95ab4d9b20c37213b943f
-      internalID: -2106374784
+      spriteID: d3e0f573be10b8042867c3f9a15e95be
+      internalID: -1459003470
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Attack_8
+      name: Criminal Walk_8
       rect:
         serializedVersion: 2
         x: 128
@@ -305,14 +305,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b23f2c842e682ff4491504e27d86913e
-      internalID: 1547423630
+      spriteID: b62ebbbc758657c45a0d6b2436f5b34a
+      internalID: 742063930
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Attack_9
+      name: Criminal Walk_9
       rect:
         serializedVersion: 2
         x: 144
@@ -326,14 +326,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 510a7c0a7d521db4f97d1ff15798130e
-      internalID: 26322216
+      spriteID: 0e2b23a32e623924685c4087b381a33b
+      internalID: 1653572695
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Attack_10
+      name: Criminal Walk_10
       rect:
         serializedVersion: 2
         x: 160
@@ -347,14 +347,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7d00e3f588a31154cb3381b475ce5bd9
-      internalID: 1875309992
+      spriteID: 548575539a937554687f5f7faf75e054
+      internalID: -1391897268
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Attack_11
+      name: Criminal Walk_11
       rect:
         serializedVersion: 2
         x: 176
@@ -368,14 +368,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b0743f1f748d9834ab4b583898d99b01
-      internalID: 1525631843
+      spriteID: f15ef96e0180ab64087f405a8a7d76d9
+      internalID: 216266195
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Attack_12
+      name: Criminal Walk_12
       rect:
         serializedVersion: 2
         x: 192
@@ -389,14 +389,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9ccf1827ee715134f9645536c8e0f397
-      internalID: 313474828
+      spriteID: abbc855fa3b49924d91a23117c5b4ee8
+      internalID: -1519977994
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Attack_13
+      name: Criminal Walk_13
       rect:
         serializedVersion: 2
         x: 208
@@ -410,14 +410,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0cbe08be3b359ca4fa7326bd810a318c
-      internalID: -1204347264
+      spriteID: 56d74cb938d8a994c81cf5c62d120457
+      internalID: 1717263724
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Attack_14
+      name: Criminal Walk_14
       rect:
         serializedVersion: 2
         x: 224
@@ -431,14 +431,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3e356dd5546122d48a155377c77919a1
-      internalID: -905763274
+      spriteID: 010e3aeb088ce2946b6c21457e677c62
+      internalID: 2013058441
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Attack_15
+      name: Criminal Walk_15
       rect:
         serializedVersion: 2
         x: 240
@@ -452,14 +452,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c49899e3c7781c14882855f5737d7d70
-      internalID: 1962998975
+      spriteID: 0a297d602662ea94290d038db4bc7efb
+      internalID: -640519325
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Attack_16
+      name: Criminal Walk_16
       rect:
         serializedVersion: 2
         x: 256
@@ -473,14 +473,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3f0bd2d96ae6a984eb9c41c0e69717d9
-      internalID: 693769801
+      spriteID: 336d7637c309d2743b019dcac6b5dec4
+      internalID: 915874048
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Attack_17
+      name: Criminal Walk_17
       rect:
         serializedVersion: 2
         x: 272
@@ -494,14 +494,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b8da944662cf6af4ebaf7c634e967693
-      internalID: 1298618571
+      spriteID: 32ee64f9088b86845b3ed79e0dfe847c
+      internalID: 1092020614
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Attack_18
+      name: Criminal Walk_18
       rect:
         serializedVersion: 2
         x: 288
@@ -515,14 +515,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c99664963d7413c479d840863634bdb5
-      internalID: -664306249
+      spriteID: efcddfa85787bcb4da3aecc11bf4418b
+      internalID: -1970478813
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Attack_19
+      name: Criminal Walk_19
       rect:
         serializedVersion: 2
         x: 304
@@ -536,14 +536,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d4bcf5a4a670b494898a2b0cda4226e1
-      internalID: 633676318
+      spriteID: aa20b59f159d8644cb1cd1b993a2eac7
+      internalID: -116463402
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Attack_20
+      name: Criminal Walk_20
       rect:
         serializedVersion: 2
         x: 320
@@ -557,14 +557,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: de7f6eb106ab0124184c033d2e97cd57
-      internalID: 1325508646
+      spriteID: 03f2db74bde85c54fa378a00a031c90b
+      internalID: -1047421302
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Attack_21
+      name: Criminal Walk_21
       rect:
         serializedVersion: 2
         x: 336
@@ -578,14 +578,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a122c92ff1b649f4089eab4f604dc283
-      internalID: 5242451
+      spriteID: 96d67be85ceface448a5d8cc97841cfe
+      internalID: -1112846019
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Attack_22
+      name: Criminal Walk_22
       rect:
         serializedVersion: 2
         x: 352
@@ -599,14 +599,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cec0e1e1158524e45a5089ec092640fd
-      internalID: -1440330900
+      spriteID: ebd55a037d9f3604fa211fe5b46aaf44
+      internalID: 437551905
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Attack_23
+      name: Criminal Walk_23
       rect:
         serializedVersion: 2
         x: 368
@@ -620,8 +620,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6272f9b0240b35d4fa30754ff8baddb5
-      internalID: 1562439416
+      spriteID: 09d613888359773409d69de462828bb5
+      internalID: 1305137630
       vertices: []
       indices: 
       edges: []
@@ -637,30 +637,30 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Player Attack_0: -2099122752
-      Player Attack_1: 2067114185
-      Player Attack_10: 1875309992
-      Player Attack_11: 1525631843
-      Player Attack_12: 313474828
-      Player Attack_13: -1204347264
-      Player Attack_14: -905763274
-      Player Attack_15: 1962998975
-      Player Attack_16: 693769801
-      Player Attack_17: 1298618571
-      Player Attack_18: -664306249
-      Player Attack_19: 633676318
-      Player Attack_2: -2086049407
-      Player Attack_20: 1325508646
-      Player Attack_21: 5242451
-      Player Attack_22: -1440330900
-      Player Attack_23: 1562439416
-      Player Attack_3: -2132104066
-      Player Attack_4: 1469661648
-      Player Attack_5: -1332870047
-      Player Attack_6: 688702375
-      Player Attack_7: -2106374784
-      Player Attack_8: 1547423630
-      Player Attack_9: 26322216
+      Criminal Walk_0: -1356411193
+      Criminal Walk_1: -528833011
+      Criminal Walk_10: -1391897268
+      Criminal Walk_11: 216266195
+      Criminal Walk_12: -1519977994
+      Criminal Walk_13: 1717263724
+      Criminal Walk_14: 2013058441
+      Criminal Walk_15: -640519325
+      Criminal Walk_16: 915874048
+      Criminal Walk_17: 1092020614
+      Criminal Walk_18: -1970478813
+      Criminal Walk_19: -116463402
+      Criminal Walk_2: 1244663616
+      Criminal Walk_20: -1047421302
+      Criminal Walk_21: -1112846019
+      Criminal Walk_22: 437551905
+      Criminal Walk_23: 1305137630
+      Criminal Walk_3: 1292414909
+      Criminal Walk_4: 216657444
+      Criminal Walk_5: 1763011259
+      Criminal Walk_6: -419518623
+      Criminal Walk_7: -1459003470
+      Criminal Walk_8: 742063930
+      Criminal Walk_9: 1653572695
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
