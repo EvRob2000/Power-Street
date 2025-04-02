@@ -9,10 +9,12 @@ public class Attack : MonoBehaviour
     public float atkDuration = 0.3f;
     float atkTimer = 0f;
     [SerializeField] private Animator animator;
+    [SerializeField] private GameObject punchSound;
     //[SerializeField] private PlayerMovementController playerMovementController;
 
     private void Start()
     {
+        punchSound.SetActive(false);
         melee.SetActive(false);
     }
 
@@ -42,12 +44,14 @@ public class Attack : MonoBehaviour
         if (isAttacking)
         {
             atkTimer += Time.deltaTime;
+            punchSound.SetActive(true);
             if (atkTimer >= atkDuration)
             {
                 atkTimer = 0f;
                 isAttacking = false;
                 melee.SetActive(false);
                 animator.SetBool("isAttacking", false);
+                punchSound.SetActive(false);
             }
         }
     }
