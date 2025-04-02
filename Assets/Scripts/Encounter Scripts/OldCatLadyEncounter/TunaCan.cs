@@ -74,6 +74,7 @@ public class TunaCan : MonoBehaviour
         treeCollider.SetActive(false);
         dialogue.canPlaced = true;
         fameManager.fame++;
+        fameManager.oldLady = true;
 
     }
 }

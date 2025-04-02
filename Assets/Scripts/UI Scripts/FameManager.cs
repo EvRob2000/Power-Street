@@ -9,9 +9,17 @@ public class FameManager : MonoBehaviour
     public float fame;
     [SerializeField] private TextMeshProUGUI fameTxt;
     [SerializeField] private TextMeshProUGUI fameNum;
+
+    public bool oldLady;
+    public bool alleyway;
+
+    [SerializeField] private GameObject copBarrier;
+
     // Start is called before the first frame update
     void Start()
     {
+        oldLady = false;
+        alleyway = false;
         fame = 0;
         fameTxt.GetComponent<TextMeshProUGUI>();
         fameNum.GetComponent<TextMeshProUGUI>();
@@ -21,6 +29,11 @@ public class FameManager : MonoBehaviour
     void Update()
     {
         FameScore();
+
+        if (oldLady && alleyway)
+        {
+            copBarrier.SetActive(false);
+        }
     }
 
     private void FameScore()

@@ -39,5 +39,6 @@ public class TreeOnFire : MonoBehaviour
         treeCollider.SetActive(false);       
         dialogue.treeOnFire = true;
         fameManager.fame--;
+        fameManager.oldLady = true;
     }
 }

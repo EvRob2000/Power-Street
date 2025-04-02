@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 
-public class CriminalDialogue : MonoBehaviour
+public class MuggedDialogue : MonoBehaviour
 {
     public TextMeshProUGUI dialogueText;
     public string[] sentences;
@@ -12,19 +12,10 @@ public class CriminalDialogue : MonoBehaviour
     private int count = 0;
     [SerializeField] private GameObject dialogueBox;
 
-    [Header("Encounter")]
-    [SerializeField] private GameObject criminal1;
-    [SerializeField] private GameObject criminal2;
-    [SerializeField] private GameObject mug1;
-    [SerializeField] private GameObject mug2;
-    public bool isSolved;
-
-    [SerializeField] public FameManager fameManager;
-
     private bool canPressE = true;
     private bool closeToPlayer;
 
-    
+    [SerializeField] public CriminalDialogue crim;
 
     private void Start()
     {
@@ -39,20 +30,10 @@ public class CriminalDialogue : MonoBehaviour
             NextSentence();
         }
 
-        if (count == 4)
+        if (count == 3)
         {
-            mug1.SetActive(false);
-            mug2.SetActive(true);
+            crim.isSolved = true;
         }
-
-        if (isSolved)
-        {
-            criminal1.SetActive(false);
-            criminal2.SetActive(true);
-            fameManager.fame++;
-            fameManager.alleyway = true;
-        }
- 
     }
 
     void NextSentence()

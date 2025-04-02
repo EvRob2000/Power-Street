@@ -29,8 +29,6 @@ public class DialogueController : MonoBehaviour
             dialogueBox.SetActive(true);
             NextSentence();
         }
-
-        Debug.Log(count);
     }
 
     void NextSentence()

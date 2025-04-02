@@ -8,10 +8,12 @@ public class Damage : MonoBehaviour
     public float damage;
     public Animator anim;
     public bool canAttack;
+    [SerializeField] private GameObject punchSound;
 
 
     private void Start()
     {
+        punchSound.SetActive(false);
         canAttack = true;
     }
 
@@ -33,6 +35,7 @@ public class Damage : MonoBehaviour
 
     private IEnumerator EnemyAttack()
     {
+        punchSound.SetActive(true);
         anim.SetBool("isAttacking", true);
         canAttack = false;
         
@@ -46,8 +49,9 @@ public class Damage : MonoBehaviour
         yield return new WaitForSeconds(0.3f);
 
         anim.SetBool("isAttacking", false);
+        punchSound.SetActive(false);
 
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(0.5f);
 
         canAttack = true;
     }

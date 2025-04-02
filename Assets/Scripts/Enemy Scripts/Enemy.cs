@@ -32,6 +32,7 @@ public class Enemy : MonoBehaviour
         {
             Destroy(gameObject);
             fameManager.fame--;
+            fameManager.alleyway = true;
         }
     }
 }
