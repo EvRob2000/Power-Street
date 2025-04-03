@@ -801,9 +801,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueText: {fileID: 114361773}
   sentences:
-  - gfhfg
-  - gfhfg
-  - fghfg
+  - You...
+  - You killed that guy...
+  - Thanks for my watch I guess.
   dialogueSpeed: 0.05
   dialogueBox: {fileID: 114361774}
   crim: {fileID: 927387271}
