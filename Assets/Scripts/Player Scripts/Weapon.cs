@@ -10,11 +10,13 @@ public class Weapon : MonoBehaviour
     {
         Enemy enemy = collision.GetComponent<Enemy>();
 
+        CriminalEnemy criminalEnemy = collision.GetComponent<CriminalEnemy>();
+
         AlienEnemy alien = collision.GetComponent<AlienEnemy>();
 
-        if(enemy != null)
+        if(criminalEnemy != null)
         {
-            enemy.TakeDamage(damage);
+            criminalEnemy.TakeDamage(damage);
         }
         else if (alien != null)
         {
